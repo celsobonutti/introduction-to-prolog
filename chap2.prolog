@@ -29,7 +29,7 @@ reverse_list([Head | Tail], Result) :-
   snoc(Head, ReversedList, Result).
 
 last1([Head], Head).
-last1([ _ | Tail], Result) :-
+last1([_ | Tail], Result) :-
   last1(Tail, Result).
 
 last2(List, Result) :-
