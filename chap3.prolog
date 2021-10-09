@@ -18,7 +18,6 @@ squareAux(LineNumber, LineSize, Item) :-
 
 square(N, Item) :- squareAux(N, N, Item).
 
-
 fibonacci(0, 1).
 fibonacci(1, 1).
 fibonacci(X, Result) :-
